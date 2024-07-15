@@ -41,7 +41,13 @@ Chore: {그 외 수정에 대한 메시지}
 파일 경로 및 이름 형식은 다음을 따릅니다.
 
 ```
-/http-the-definitive-guide/reading-notes/{part number}-{part name}/{chapter number}-{chapter name}.md
+/http-the-definitive-guide/reading-notes/{part number}-{part name}-{chapter number}/{chapter name}.md
+```
+
+이미지 파일 등 정적 파일은 md 파일과 함께 같은 경로에 위치합니다.
+
+```
+/http-the-definitive-guide/reading-notes/{part number}-{part name}-{chapter number}/{이미지 파일}.png
 ```
 
 # Rule
