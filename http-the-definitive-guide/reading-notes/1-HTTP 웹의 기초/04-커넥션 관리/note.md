@@ -222,7 +222,7 @@ HTTP는 클라이언트가 여러 개의 커넥션을 맺어 여러 개의 HTTP 
 
 ### 4.5.4 Keep-Alive 옵션
 
-```http request
+```
 - Connection: Keep-Alive
 - Keep-Alive: max=5, timeout=120 (커넥션을 유지할 수 있는 최대 요청 수, 커넥션을 유지한 상태로 두는 시간)
 ```
